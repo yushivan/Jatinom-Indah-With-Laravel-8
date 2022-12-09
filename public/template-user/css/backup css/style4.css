@@ -1,0 +1,69 @@
+/*detail shop css*/
+
+.detail-shop .content-img{
+	width: 400px;
+	float :right ;
+}
+.detail-shop .btn-cart{
+	position: absolute;
+	right: 50px;
+	top: 500px;
+}
+.detail-shop .value-cart{
+	position: absolute;
+	font-size: 20px;
+	border-radius: 100%;
+	right: 5px;
+}
+.detail-shop .btn-cart i{
+	font-size: 50px;
+	padding: 10px;
+}
+.shop .toko .dropdown-kategori {
+	color:black;
+}
+
+
+@media only screen and (max-width: 987px) {
+	.detail-shop .content-img{
+		float: none;
+	}
+	.detail-shop .content-desc{
+		justify-content: center;
+		text-align: center;
+	}
+	.detail-shop .jumlah{
+		text-align: right;
+		padding-right: 30px;
+	}
+	.detail-shop .btn-jumlah{
+		text-align: left;
+	}
+	.detail-shop .btn-cart{
+		position: absolute;
+		right: 50px;
+		top: 810px;
+	}
+	.detail-shop .value-cart{
+		position: absolute;
+		font-size: 16px;
+		border-radius: 100%;
+		right: 5px;
+	}
+	.detail-shop .btn-cart i{
+		font-size: 40px;
+		padding: 10px;
+	}
+}
+
+/*pemesanan css*/
+
+.pemesanan .form-pesan {
+	background-color: whitesmoke;
+	padding: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.pemesanan .form-control{
+	background-color: white;
+}

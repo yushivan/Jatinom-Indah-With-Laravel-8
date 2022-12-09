@@ -1,0 +1,198 @@
+/*general*/
+body{
+	font-family: roboto;
+}
+
+/*footer*/
+.footer{
+	padding-top: 30px;
+	padding-left: 70px;
+	padding-right: 70px;
+	background-color: ghostwhite;
+}
+.maps{
+	padding-top: 50px;
+}
+.medsos{
+	padding-left: 35px;
+}
+.menu-item{
+	padding-left: 100px;
+}
+.menu-item a{
+	text-decoration: none;
+	color: black;
+}
+.medsos p{
+	padding-bottom: 5px;
+}
+.medsos i{
+	font-size: 30px;
+	margin-right: 15px;
+	position: relative;
+	top: 5px; 
+}
+.searching{
+	padding-top: 50px;
+}
+/*end footer*/
+
+.btn-warning{
+	background-color: orange;
+}
+.nav-link{
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 987px) {
+	.medsos{
+		padding-left: 10px;
+	}
+	.menu-item{
+		padding-left: 60px;
+	}
+	.footer{
+		padding-top: 30px;
+		padding-left: 50px;
+		padding-right: 50px;
+		background-color: ghostwhite;
+	}
+}
+
+
+/*home css*/
+.home .slider-title{
+	margin-bottom: 130px;
+}
+.home .title-content{
+	color: orange;
+	font-weight: bold;
+}
+.home .name-item{
+	color: orange;
+}
+.home .kontak-card{
+	padding: 40px;
+	background-size: 1080px;
+	background-repeat: no-repeat;
+}
+
+.home .anak-perusahaan img{
+	width: 200px;
+}
+.home .menu-harga img{
+	width: 200px;
+}
+.home .partner img{
+	width: 130px;
+}
+
+@media only screen and (max-width: 1180px) {
+	.home .slider-title{
+		margin-bottom: 40px;
+	}
+}
+
+@media only screen and (max-width: 987px) {
+	.home .slider-title{
+		margin-bottom: 10px;
+	}
+	.home .anak-perusahaan img{
+		width: 100%;
+	}
+	.home .menu-harga img{
+		width: 100%;
+	}
+	.home .partner img{
+		width: 100%;
+	}
+	.home .tentang p{
+		text-align: center;
+	}
+	.home .kontak-card{
+		padding: 40px;
+		background-size: 800px;
+		background-repeat: no-repeat;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.home .anak-perusahaan img{
+		width: 100%;
+	}
+	.home .menu-harga img{
+		width: 100%;
+	}
+	.home .partner img{
+		width: 100%;
+	}
+	.home .kontak-card{
+		padding: 40px;
+		background-size: 600px;
+		background-repeat: no-repeat;
+	}
+}
+
+
+
+
+/*fasilitas css*/ 
+
+.fasilitas .title-content{
+	color: orange;
+	font-weight: bold;
+}
+
+.fasilitas .nama-fasilitas{
+	background-color: black;
+	opacity: 30%; 
+}
+.fasilitas .nama-fasilitas-text{
+	padding-top: 140px;
+}
+
+@media only screen and (max-width: 1200px) {
+	.fasilitas .nama-fasilitas-text{
+		padding-top: 110px;
+	}
+}
+
+@media only screen and (max-width: 987px) {
+	.fasilitas .nama-fasilitas-text{
+		padding-top: 70px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.fasilitas .nama-fasilitas-text{
+		padding-top: 80px;
+	}
+}
+
+
+
+/*produk css*/
+
+.produk .title-content{
+	color: orange;
+	font-weight: bold;
+	text-align: center;
+	font-size: 50px;
+}
+.produk .name-item{
+	color: orange;
+}
+.produk .nama-produk{
+	font-size: 20px;
+	text-align: center;
+}
+.produk .list-produk img{
+	width: 200px;
+}
+
+@media only screen and (max-width: 987px) {
+	.produk .list-produk img{
+		width: 100%;
+	}
+}
+

@@ -1,0 +1,84 @@
+/*login css*/
+
+.login {
+ 
+  background-repeat: no-repeat;
+  background-size: 1920px;
+}
+
+.card-signin {
+  border: 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-signin .card-title {
+  margin-bottom: 1.5rem;
+  color: orange;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.card-signin .card-body {
+  padding: 2rem;
+}
+
+.form-signin {
+  width: 100%;
+}
+
+.form-signin .btn {
+  font-size: 80%;
+  color: white;
+  width: 250px;
+  border-radius: 0.5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group input {
+  height: 55px;
+  border-radius: 0.5rem;
+}
+ .kotak-login{
+  width: 400px;
+  text-align: center;
+ }
+
+.logo{
+  width: 180px;
+}
+.title-logo{
+  font-size: 28px;
+}
+
+/*daftar css*/
+
+  .kotak-daftar{
+  width: 600px;
+  text-align: center;
+ }
+
+.daftar {
+  background-repeat: no-repeat;
+  background-size: 3000px;
+}
+
+.daftar .form-label-group input {
+  height: 50px;
+  border-radius: 0.5rem;
+}
+
+.daftar .card-signin .card-title {
+  margin-bottom: 0.75rem;
+  color: orange;
+  font-weight: bold;
+  letter-spacing: 2px;
+}

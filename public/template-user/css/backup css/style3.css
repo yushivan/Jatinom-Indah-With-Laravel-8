@@ -1,0 +1,14 @@
+/*detail blog css*/
+
+.detail-blog .img-detail-blog{
+	width: 350px;
+}
+
+.detail-blog .title-content{
+	color: orange;
+	font-weight: bold;
+	text-align: center;
+	font-size: 40px;
+}
+
+

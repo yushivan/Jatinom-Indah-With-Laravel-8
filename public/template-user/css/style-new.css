@@ -1,0 +1,44 @@
+/*.home .expertise .card-expertise{*/
+/*    height:200px;*/
+/*    width:190px;*/
+/*}*/
+
+.home .expertise .img-expertise{
+    width:100px;
+}
+
+@media only screen and (max-width: 987px) {
+    /*.home .expertise .card-expertise{*/
+    /*    height:100%;*/
+    /*    width:100%;*/
+    /*}*/
+    .home .expertise .img-expertise{
+        width:100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    /*.home .expertise .card-expertise{*/
+    /*    height:100%;*/
+    /*    width:100%;*/
+    /*}*/
+    .home .expertise .img-expertise{
+        width:100%;
+    }
+}
+
+.tentang .direksi .card-direksi{
+    height:300px;
+}
+
+@media only screen and (max-width: 987px) {
+    .tentang .direksi .card-direksi{
+        height:100%;
+    } 
+}
+
+@media only screen and (max-width: 600px) {
+    .tentang .direksi .card-direksi{
+        height:100%;
+    } 
+}

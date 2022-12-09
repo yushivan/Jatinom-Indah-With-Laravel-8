@@ -1,0 +1,65 @@
+/*blog css*/
+
+.blog .daftar-blog .title-content{
+	color: orange;
+	font-weight: bold;
+	text-align: center;
+	font-size: 50px;
+}
+.blog .daftar-blog img{
+	width: 300px;
+}
+.blog .daftar-blog button{
+	float: right;
+}
+
+@media only screen and (max-width: 987px) {
+	.blog .daftar-blog img{
+		width: 70%;
+	}
+	.blog .content-blog h4{
+		margin-top: 15px;
+		text-align: center;
+	}
+}
+
+
+
+/*tentang css*/
+
+.tentang .tentang-kami .title-content{
+	color: orange;
+	font-weight: bold;
+	text-align: center;
+	font-size: 40px;
+}
+.tentang .tentang-kami img{
+	width: 100%;
+}
+
+
+/*shop css*/
+
+.shop .toko .title-content{
+	color: orange;
+	font-weight: bold;
+	text-align: center;
+	font-size: 50px;
+}
+
+.shop .toko a{
+	text-decoration: none;
+	color: orange;
+}
+.shop .toko .kategori-shop{
+	color: orange;
+}
+.shop .toko .gambar-produk{
+	width: 200px;
+}
+.shop .toko .name-item{
+	color: orange;
+}
+.shop .toko .dropdown-kategori {
+	color:black;
+}

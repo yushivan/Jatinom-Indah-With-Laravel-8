@@ -1,0 +1,533 @@
+/*general*/
+body{
+	font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*footer*/
+.footer{
+	padding-top: 30px;
+	padding-left: 70px;
+	padding-right: 70px;
+	background-color: ghostwhite;
+}
+.maps{
+	padding-top: 50px;
+}
+.medsos{
+	padding-left: 35px;
+}
+.menu-item{
+	padding-left: 100px;
+}
+.menu-item a{
+	text-decoration: none;
+	color: black;
+}
+.medsos p{
+	padding-bottom: 0px;
+}
+.medsos i{
+	font-size: 30px;
+	margin-right: 15px;
+	position: relative;
+	top: 5px;
+}
+.searching{
+	padding-top: 50px;
+}
+/*end footer*/
+
+.btn-warning{
+	background-color: orange;
+}
+.nav-link{
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 987px) {
+	.medsos{
+		padding-left: 10px;
+	}
+	.menu-item{
+		padding-left: 60px;
+	}
+	.footer{
+		padding-top: 30px;
+		padding-left: 50px;
+		padding-right: 50px;
+		background-color: ghostwhite;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.medsos{
+		padding-left: 10px;
+		font-size:15px;
+	}
+	.menu-item{
+		padding-left: 40px;
+		padding-top:0px;
+		font-size:15px;
+	}
+	.footer .medsos-title{
+	    font-size:22px;
+	}
+	.footer .menu-title{
+	    font-size:22px;
+	}
+	.footer{
+		padding-top: 30px;
+		padding-left: 50px;
+		padding-right: 50px;
+		background-color: ghostwhite;
+	}
+    .medsos i{
+	font-size: 20px;
+	margin-right: 15px;
+	position: relative;
+	top: 2px;
+}
+}
+
+
+/*navbar css*/
+.navbar-brand img{
+    width: 250px;
+    height: 50px;
+}
+.navbar-nav .nav-item a {
+    text-decoration: none;
+    color: black;
+}
+.navbar-content {
+    padding-left: 50px;
+    padding-right: 50px
+}
+.user-icon{
+    text-align:center;
+    margin-right:-40px;
+    margin-left:10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-brand img{
+        width: 150px;
+        height: 30px;
+    }
+    .navbar-content {
+        padding-left: 10px;
+        padding-right: 10px
+    }
+    .user-icon{
+        text-align:center;
+        margin-right:0px;
+        margin-left:0px;
+    }
+}
+
+/*carousel css*/
+
+.carousel-inner .carousel-item .carousel-caption .d-normal-none a {
+    display: none;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel-inner .carousel-item .carousel-caption .d-normal-none a {
+        display: inline;
+        color: white;
+    }
+}
+
+
+
+/*home css*/
+.home .slider-title{
+	margin-bottom: 130px;
+}
+.home .title-content{
+	color: orange;
+	font-weight: bold;
+}
+.home .name-item{
+	color: orange;
+}
+.home .kontak-card{
+	padding: 40px;
+	background-size: 1080px;
+	background-repeat: no-repeat;
+}
+
+.home .anak-perusahaan img{
+	width: 200px;
+}
+.home .menu-harga img{
+	width: 200px;
+}
+.home .partner img{
+	width: 130px;
+}
+.home .tentang .img-tentang{
+	width: 300px;
+}
+
+@media only screen and (max-width: 1180px) {
+	.home .slider-title{
+		margin-bottom: 40px;
+	}
+}
+
+@media only screen and (max-width: 987px) {
+	.home .slider-title{
+		margin-bottom: 10px;
+	}
+	.home .anak-perusahaan img{
+		width: 100%;
+	}
+	.home .menu-harga img{
+		width: 100%;
+	}
+	.home .partner img{
+		width: 100%;
+	}
+	.home .tentang .img-tentang{
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+	.home .kontak-card{
+		padding: 40px;
+		background-size: 800px;
+		background-repeat: no-repeat;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.home .anak-perusahaan img{
+		width: 100%;
+	}
+	.home .menu-harga img{
+		width: 100%;
+	}
+	.home .partner img{
+		width: 100%;
+	}
+	.home .kontak-card{
+		padding: 40px;
+		background-size: 800px;
+		background-repeat: no-repeat;
+	}
+	.home .anak-perusahaan .name-item{
+    	font-size: 18px;
+    }
+    .home .menu-harga .name-item{
+    	font-size: 18px;
+    }
+    .home .tentang p{
+		text-align: center;
+	}
+}
+
+
+
+
+/*fasilitas css*/
+
+.fasilitas .title-content{
+	color: orange;
+	font-weight: bold;
+}
+
+.fasilitas .nama-fasilitas{
+	background-color: black;
+	opacity: 30%;
+}
+.fasilitas .nama-fasilitas-text{
+	padding-top:auto;
+		padding-bottom:auto;
+		align-items:center;
+}
+
+@media only screen and (max-width: 1200px) {
+	.fasilitas .nama-fasilitas-text{
+		padding-top:auto;
+		padding-bottom:auto;
+	}
+}
+
+@media only screen and (max-width: 987px) {
+	.fasilitas .nama-fasilitas-text{
+		padding-top:auto;
+		padding-bottom:auto;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.fasilitas .nama-fasilitas-text{
+		/*padding-top: 130px;*/
+		padding-top:auto;
+		padding-bottom:auto;
+	}
+}
+
+
+
+/*produk css*/
+
+.produk .title-content{
+	color: orange;
+	font-weight: bold;
+	text-align: center;
+	font-size: 50px;
+}
+.produk .list-produk .nama-produk{
+	color: orange;
+	font-size: 28px;
+	text-align: center;
+}
+.produk .list-produk img{
+	width: 200px;
+}
+
+@media only screen and (max-width: 987px) {
+	.produk .list-produk img{
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.produk .list-produk .nama-produk{
+		font-size: 20px;
+	}
+	.produk .list-produk .harga-item{
+		font-size: 18px;
+	}
+
+}
+
+/*detail shop css*/
+
+.detail-shop .content-img{
+	width: 400px;
+	float :right ;
+}
+.detail-shop .btn-cart{
+	position: absolute;
+	right: 50px;
+	top: 500px;
+}
+.detail-shop .value-cart{
+	position: absolute;
+	font-size: 20px;
+	border-radius: 100%;
+	right: 5px;
+}
+.detail-shop .btn-cart i{
+	font-size: 50px;
+	padding: 10px;
+}
+
+
+@media only screen and (max-width: 987px) {
+	.detail-shop .content-img{
+		width: 100%;
+		float: none;
+	}
+	.detail-shop .content-desc{
+		justify-content: center;
+		text-align: center;
+	}
+	.detail-shop .jumlah{
+		text-align: right;
+		padding-right: 25px;
+	}
+	.detail-shop .btn-jumlah{
+		text-align: left;
+	}
+	.detail-shop .btn-cart{
+		position: absolute;
+		right: 50px;
+		top: 700px;
+	}
+	.detail-shop .value-cart{
+		position: absolute;
+		font-size: 16px;
+		border-radius: 100%;
+		right: 5px;
+	}
+	.detail-shop .btn-cart i{
+		font-size: 40px;
+		padding: 10px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+    .detail-shop .btn-cart{
+		position: absolute;
+		right: 50px;
+		top: 750px;
+	}
+	.detail-shop .content-img{
+		width: 100%;
+		float: none;
+	}
+	.detail-shop .row {
+	    -bs-gutter-x: 0rem;
+	}
+}
+
+/*pemesanan css*/
+
+.pemesanan .form-pesan {
+	background-color: whitesmoke;
+	padding: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.pemesanan .form-control{
+	background-color: white;
+}
+
+
+/*detail blog css*/
+
+.detail-blog .img-detail-blog{
+	width: 50%;
+}
+
+.detail-blog .title-content{
+	color: orange;
+	font-weight: bold;
+	text-align: center;
+	font-size: 40px;
+}
+
+@media only screen and (max-width: 600px) { 
+    .detail-blog .title-content{
+    	color: orange;
+    	font-weight: bold;
+    	text-align: center;
+    	font-size: 20px;
+    }
+    .detail-blog .img-detail-blog{
+    	width: 100%;
+    }
+}
+
+/*detail anak perusahaan css*/
+
+.detail-anak-perusahaan .img-detail-anak-perusahaan{
+	width: 350px;
+}
+
+.detail-anak-perusahaan .title-content{
+	color: orange;
+	font-weight: bold;
+	text-align: center;
+	font-size: 40px;
+}
+
+/*detail produk css*/
+
+.detail-produk .detail-tiap-produk .img-detail-produk{
+	width: 350px;
+}
+
+.detail-produk .detail-tiap-produk .title-content{
+	color: orange;
+	font-weight: bold;
+	text-align: center;
+	font-size: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    .detail-produk .detail-tiap-produk .img-detail-produk{
+    	width: 100%;
+    }
+    .detail-produk .detail-tiap-produk .detail-item{
+        text-align:center;
+    }
+    .detail-produk .detail-tiap-produk .detail-item p{
+        text-align:left;
+    }
+}
+
+
+/*blog css*/
+
+.blog .daftar-blog .title-content{
+	color: orange;
+	font-weight: bold;
+	text-align: center;
+	font-size: 50px;
+}
+.blog .daftar-blog img{
+	width: 300px;
+}
+.blog .daftar-blog button{
+	float: right;
+}
+
+@media only screen and (max-width: 987px) {
+	.blog .daftar-blog img{
+		width: 100%;
+	}
+	.blog .content-blog h4{
+		margin-top: 15px;
+		text-align: center;
+	}
+}
+
+
+
+/*tentang css*/
+
+.owl-carousel .owl-stage {
+    display: flex;
+    align-items: center;
+}
+
+.tentang .tentang-kami .title-content{
+	color: orange;
+	font-weight: bold;
+	text-align: center;
+	font-size: 40px;
+}
+.tentang .tentang-kami img{
+	width: 100%;
+}
+
+
+/*shop css*/
+
+.shop .toko .title-content{
+	color: orange;
+	font-weight: bold;
+	text-align: center;
+	font-size: 50px;
+}
+
+.shop .toko a{
+	text-decoration: none;
+	color: orange;
+}
+.shop .toko .kategori-shop{
+	color: orange;
+}
+.shop .toko .gambar-produk{
+	width: 200px;
+}
+.shop .toko .name-item{
+	color: orange;
+}
+.shop .toko .dropdown-kategori {
+	color:black;
+}
+
+@media only screen and (max-width: 600px) {
+    .shop .toko .gambar-produk{
+    	width: 100%;
+    }
+    .shop .toko .name-item{
+    	color: orange;
+    	font-size:20px;
+    }
+}
